@@ -1,0 +1,16 @@
+.grilla-container {
+    display:flex;
+    flex: 1 1 1;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    text-align: center;
+}
