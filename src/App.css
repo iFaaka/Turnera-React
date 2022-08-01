@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,6 +6,20 @@ body {
 }
 
 #app-container {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: white;
 }
 
+.dark {
+    filter: invert(1);
+}
+
+.light-button {
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}

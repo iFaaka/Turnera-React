@@ -1,7 +1,38 @@
+.turnera-container {
+    width: 80vw;
+    height: 100vh;
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.turnera-container * {
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 3vh;
+}
+
+.code-content {
+    background-color: lightgray;
+    padding: 3vh;
+    border-radius: 30px;
+}
+
+.score-hours {
+    padding: 2vh;
+    font-weight: bold;
+}
+
 .grilla-container {
-    display:flex;
+    display: flex;
     flex: 1 1 1;
     flex-direction: column;
+    margin-top: 2vh;
 
 }
 
@@ -11,6 +42,6 @@
     align-items: center;
 }
 
-*{
-    text-align: center;
+.change-light {
+    margin-top: 4vh;
 }

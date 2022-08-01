@@ -1,12 +1,14 @@
-import './App.css';
-import { Turnera } from './Componentes/Turnera';
+import { useState } from "react";
+import "./App.css";
+import { Turnera } from "./Componentes/Turnera";
 
 function App() {
+  const [lightMode, setLightMode] = useState(false);
   return (
-    <div id='app-container'>
-      <Turnera/>
+    <div className={lightMode == false ? "light" : "dark"} id="app-container">
+      <Turnera lightMode={lightMode} setLightMode={setLightMode} />
     </div>
-  )
+  );
 }
 
 export default App;
