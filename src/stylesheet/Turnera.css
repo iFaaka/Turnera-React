@@ -1,25 +1,17 @@
 .turnera-container {
-    width: 80vw;
-    height: 100vh;
     background-color: #f5f6f7;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 4vh;
 
-}
-
-.turnera-container * {
-    text-align: center;
-}
-
-.subtitle {
-    margin-bottom: 3vh;
 }
 
 .code-content {
     background-color: lightgray;
-    padding: 3vh;
+    padding: 2vh;
+    margin: 2vh;
     border-radius: 30px;
 }
 
@@ -36,6 +28,7 @@
 
 }
 
+
 .fila {
     display: flex;
     justify-content: center;
@@ -43,5 +36,9 @@
 }
 
 .change-light {
-    margin-top: 4vh;
+    margin: 3vh;
+}
+
+.light-button {
+    font-weight: bold;
 }

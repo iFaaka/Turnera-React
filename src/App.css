@@ -3,22 +3,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-align: center;
 }
 
-#app-container {
+.app-container {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     background-color: white;
 }
 
 .dark {
     filter: invert(1);
-}
-
-.light-button {
-    font-weight: bold;
-    cursor: pointer;
-    user-select: none;
 }

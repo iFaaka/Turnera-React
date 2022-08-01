@@ -13,14 +13,14 @@ export const Turnera = ({ setLightMode, lightMode }) => {
         Esta es una aplicacion realizada siguiendo las consignas otorgadas por{" "}
         <a href="https://www.youtube.com/c/HolaMundoDev">HolaMundoDev</a>
       </h3>
-      <code className="code-content">
+      <div className="code-content">
         Tenemos una empresa de motomensajeria que cuenta con 8 vehiculos y
         entrega turnos cada media hora, al seleccionar un turno <br />
         se debe restar uno de los vehiculos disponibles y quedar el horario
         marcado como verde, al desclickear este turno queda disponible <br />
         Si nos quedamos sin vehiculos disponibles la grilla debe tomar el color
         de rojo en los turnos no ocupados
-      </code>
+      </div>
       <h5 className="score-hours">
         Todo esto debe realizarse en menos de 1hs. Mi marca persona: 73 minutos
         sin el CSS final

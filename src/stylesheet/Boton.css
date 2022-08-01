@@ -28,8 +28,14 @@
     background-color: #EB1B1B;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 425px) {
     .boton {
         width: 23vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .boton {
+        width: 21vw;
     }
 }
