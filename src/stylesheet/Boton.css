@@ -1,4 +1,4 @@
-.boton{
+.boton {
     text-align: center;
     min-width: 10vw;
     min-height: 7vh;
@@ -11,7 +11,7 @@
     z-index: 1;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: #122EA6;
 }
 
@@ -19,10 +19,17 @@
     background-color: #36AE7C;
 }
 
-.error, .delete {
+.error,
+.delete {
     background-color: #EB5353;
 }
 
 .delete:hover {
     background-color: #EB1B1B;
+}
+
+@media (max-width: 390px) {
+    .boton {
+        width: 23vw;
+    }
 }
